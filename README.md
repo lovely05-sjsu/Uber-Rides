@@ -1,5 +1,5 @@
 
-# 🚖 Uber Simulation – Distributed Microservices Architecture
+# Uber Simulation – Distributed Microservices Architecture
 
 Welcome to a scalable, production-inspired simulation of the Uber ride-sharing platform.  
 Designed as part of the **Distributed Systems for Data Engineering** course, this project demonstrates a robust microservices architecture using modern technologies: **Kafka, Docker, MySQL, MongoDB, Redis, and Machine Learning**.
@@ -12,7 +12,7 @@ This clone models real-world challenges including:
 
 ---
 
-## 🧱 System Architecture
+## System Architecture
 
 ```plaintext
 Frontend (React / Node.js)
@@ -28,19 +28,19 @@ Each backend service runs in isolation using **Docker** and communicates asynchr
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
-* 🔁 **Microservices**: Drivers, Customers, Billing, Rides, and Admin
-* 📦 **Kafka Messaging**: Asynchronous, event-driven communication
-* 🧠 **Dynamic Pricing**: Machine Learning model for real-time pricing
-* ⚡ **Redis Caching**: Improves performance by reducing DB hits
-* 📍 **Location Matching**: Matches customers to nearby drivers
-* 📷 **Media Uploads**: Videos/images for driver and customer interfaces
-* 📊 **Admin Dashboard**: Real-time stats and revenue analytics
+* **Microservices**: Drivers, Customers, Billing, Rides, and Admin
+* **Kafka Messaging**: Asynchronous, event-driven communication
+* **Dynamic Pricing**: Machine Learning model for real-time pricing
+* **Redis Caching**: Improves performance by reducing DB hits
+* **Location Matching**: Matches customers to nearby drivers
+* **Media Uploads**: Videos/images for driver and customer interfaces
+* **Admin Dashboard**: Real-time stats and revenue analytics
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 | Layer     | Tools & Technologies                           |
 | --------- | ---------------------------------------------- |
@@ -53,7 +53,7 @@ Each backend service runs in isolation using **Docker** and communicates asynchr
 
 ---
 
-## 🚀 Quick Start (With Docker)
+## Quick Start (With Docker)
 
 ```bash
 # 1. Clone the repository
@@ -72,11 +72,11 @@ npm install
 npm run dev
 ```
 
-> ✅ **Make sure Docker is running** before starting the services.
+> **Make sure Docker is running** before starting the services.
 
 ---
 
-## 📈 Performance & Scalability
+## Performance & Scalability
 
 Tested using **Apache JMeter** under various configurations:
 
@@ -89,16 +89,16 @@ Tested using **Apache JMeter** under various configurations:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🚘 Uber Hero Section
+### Uber Hero Section
 <img src="https://github.com/user-attachments/assets/5121c425-3aed-4947-bcac-191fd41ee860" width="100%" alt="Uber Hero Section" />
 
-### 🙌 Why Choose Us
+### Why Choose Us
 <img src="https://github.com/user-attachments/assets/b1cc3c4e-d4be-4707-bcaf-46e46fe97c60" width="100%" alt="Why Choose Us Section" />
 
 
-## ✅ Final Notes
+## Final Notes
 
 This project reflects a real-world distributed system with:
 
